@@ -7,7 +7,7 @@
                 <h2>タスク番号: ${message.id} の内容編集ページ</h2>
 
                 <form method="POST" action="${pageContext.request.contextPath}/update">
-                    <c:import url="_form.jsp" />
+                    <c:import url="_form2.jsp" />
                 </form>
 
                 <p><a href="${pageContext.request.contextPath}/index">一覧に戻る</a></p>
